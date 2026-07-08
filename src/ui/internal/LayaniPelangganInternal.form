@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" value="Layani Pelanggan"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="int" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="int" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="int" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="int" value="2"/>
+  </AuxValues>
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lblIdPelanggan" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtIdPelanggan" pref="110" max="-2" attributes="0"/>
+                      <Component id="btnCariPelanggan" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblNamaPelanggan" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNamaPelanggan" pref="160" max="-2" attributes="0"/>
+                      <Component id="btnPelangganBaru" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lblProduk" min="-2" max="-2" attributes="0"/>
+                      <Component id="comboProduk" pref="320" max="-2" attributes="0"/>
+                      <Component id="lblQty" min="-2" max="-2" attributes="0"/>
+                      <Component id="spinnerQty" pref="60" max="-2" attributes="0"/>
+                      <Component id="btnTambahKeranjang" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="cartScrollPane" pref="760" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="btnHapusItem" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblMetode" min="-2" max="-2" attributes="0"/>
+                      <Component id="comboMetode" pref="140" max="-2" attributes="0"/>
+                      <Component id="lblTotal" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnCheckout" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblIdPelanggan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtIdPelanggan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCariPelanggan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblNamaPelanggan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNamaPelanggan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnPelangganBaru" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblProduk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="comboProduk" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblQty" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="spinnerQty" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnTambahKeranjang" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="cartScrollPane" pref="300" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnHapusItem" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMetode" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="comboMetode" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCheckout" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblIdPelanggan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Pelanggan:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIdPelanggan">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCariPelanggan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cari"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNamaPelanggan">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNamaPelanggan">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnPelangganBaru">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pelanggan Baru"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblProduk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Produk:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="comboProduk">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblQty">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Qty:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="spinnerQty">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTambahKeranjang">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tambah ke Keranjang"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="cartScrollPane">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="boolean" value="true"/>
+      </AuxValues>
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="cartTable">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnHapusItem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hapus Item Terpilih"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMetode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="   Metode Pembayaran:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="comboMetode">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Tunai"/>
+            <StringItem index="1" value="Debit"/>
+            <StringItem index="2" value="Kartu Kredit"/>
+            <StringItem index="3" value="QRIS"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTotal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="   Total: Rp 0   "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCheckout">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Checkout"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
